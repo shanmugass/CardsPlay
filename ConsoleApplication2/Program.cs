@@ -16,7 +16,7 @@ namespace CardsPlay
             var queue = new  Queue<int>();
             var results = new List<int>();
 
-            //initalizes stack and results
+            //initalizes queue and results
             for (int i = 0; i < maxCards; i++)
             {
                 queue.Enqueue(i);
